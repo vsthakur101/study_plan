@@ -5,12 +5,20 @@
       "title": "Go Backend Development Learning Roadmap for Complete Beginners"
     },
     {
+      "path": "nodejs-backend-roadmap.md",
+      "title": "Node.js Backend Development Learning Roadmap for Complete Beginners"
+    },
+    {
+      "path": "programming_best_practices.md",
+      "title": "Programming Best Practices Guide"
+    },
+    {
       "path": "python-backend-roadmap.md",
       "title": "Python Backend Development Learning Roadmap"
     },
     {
       "path": "typescript_learning_plan.md",
-      "title": "TypeScript Backend Development Learning Roadmap"
+      "title": "TypeScript Learning Plan for Beginners"
     }
   ]
 }
