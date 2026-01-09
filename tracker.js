@@ -67,6 +67,80 @@ class RoadmapTracker {
     async loadRoadmaps() {
         this.roadmaps = [
             {
+                id: 'dsa',
+                title: 'Data Structures & Algorithms',
+                description: 'Master DSA from beginner to interview-ready in 4-6 months',
+                icon: 'fa-brain',
+                color: 'teal',
+                phases: [
+                    {
+                        id: 'foundation',
+                        title: 'Foundation & Mindset',
+                        duration: 'Week 1',
+                        tasks: [
+                            { id: 'dsa-complexity', title: 'Time & Space Complexity (Big-O)', estimatedTime: '4-5 hours' },
+                            { id: 'dsa-resources', title: 'Setup Practice Environment & Resources', estimatedTime: '2-3 hours' },
+                            { id: 'dsa-mindset', title: 'Problem-Solving Mindset & Strategy', estimatedTime: '2-3 hours' }
+                        ]
+                    },
+                    {
+                        id: 'basic-ds',
+                        title: 'Basic Data Structures',
+                        duration: 'Weeks 2-5',
+                        tasks: [
+                            { id: 'dsa-arrays', title: 'Arrays & Strings (Two Pointers, Sliding Window)', estimatedTime: '10-12 hours' },
+                            { id: 'dsa-hash', title: 'Hash Tables & Hash Maps', estimatedTime: '8-10 hours' },
+                            { id: 'dsa-linked-lists', title: 'Linked Lists (Singly, Doubly, Circular)', estimatedTime: '10-12 hours' },
+                            { id: 'dsa-stacks-queues', title: 'Stacks & Queues', estimatedTime: '8-10 hours' }
+                        ]
+                    },
+                    {
+                        id: 'intermediate-ds',
+                        title: 'Intermediate Data Structures',
+                        duration: 'Weeks 6-9',
+                        tasks: [
+                            { id: 'dsa-trees', title: 'Binary Trees & BST', estimatedTime: '12-15 hours' },
+                            { id: 'dsa-heaps', title: 'Heaps & Priority Queues', estimatedTime: '8-10 hours' },
+                            { id: 'dsa-graphs', title: 'Graphs (Adjacency List/Matrix)', estimatedTime: '10-12 hours' },
+                            { id: 'dsa-tries', title: 'Tries & Advanced Trees', estimatedTime: '8-10 hours' }
+                        ]
+                    },
+                    {
+                        id: 'core-algorithms',
+                        title: 'Core Algorithms',
+                        duration: 'Weeks 10-13',
+                        tasks: [
+                            { id: 'dsa-recursion', title: 'Recursion & Backtracking', estimatedTime: '12-15 hours' },
+                            { id: 'dsa-sorting', title: 'Sorting Algorithms (Quick, Merge, Heap)', estimatedTime: '10-12 hours' },
+                            { id: 'dsa-searching', title: 'Binary Search & Variants', estimatedTime: '8-10 hours' },
+                            { id: 'dsa-bfs-dfs', title: 'Graph Traversal (BFS, DFS)', estimatedTime: '10-12 hours' }
+                        ]
+                    },
+                    {
+                        id: 'advanced-algorithms',
+                        title: 'Advanced Algorithms',
+                        duration: 'Weeks 14-18',
+                        tasks: [
+                            { id: 'dsa-dp', title: 'Dynamic Programming (Memoization, Tabulation)', estimatedTime: '15-20 hours' },
+                            { id: 'dsa-greedy', title: 'Greedy Algorithms', estimatedTime: '10-12 hours' },
+                            { id: 'dsa-advanced-graphs', title: 'Advanced Graph Algorithms (Dijkstra, Union-Find)', estimatedTime: '12-15 hours' },
+                            { id: 'dsa-bit-manipulation', title: 'Bit Manipulation', estimatedTime: '6-8 hours' }
+                        ]
+                    },
+                    {
+                        id: 'mastery',
+                        title: 'Problem-Solving Mastery',
+                        duration: 'Weeks 19-24',
+                        tasks: [
+                            { id: 'dsa-patterns', title: 'Master Common Patterns (15 patterns)', estimatedTime: '20-25 hours' },
+                            { id: 'dsa-mock-interviews', title: 'Mock Interviews & Timed Practice', estimatedTime: '15-20 hours' },
+                            { id: 'dsa-competitive', title: 'Competitive Programming Practice', estimatedTime: '15-20 hours' },
+                            { id: 'dsa-system-design', title: 'Data Structure Design Problems', estimatedTime: '10-12 hours' }
+                        ]
+                    }
+                ]
+            },
+            {
                 id: 'typescript',
                 title: 'TypeScript Learning Plan',
                 description: 'Complete TypeScript learning path from beginner to advanced',
