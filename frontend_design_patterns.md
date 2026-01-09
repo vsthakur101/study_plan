@@ -502,7 +502,7 @@ const VirtualList = ({ items, itemHeight, containerHeight }) => {
       onScroll={(e) => setScrollTop(e.target.scrollTop)}
     >
       <div style={{ height: items.length * itemHeight, position: 'relative' }}>
-        <div style={{ transform: `translateY(${offsetY}px)` }}>
+        <div style={{transform: `translateY(${offsetY}px)`}}>
           {visibleItems.map((item, index) => (
             <div key={visibleStart + index} style={{ height: itemHeight }}>
               {item.content}
