@@ -1,6 +1,18 @@
 {
   "files": [
     {
+      "path": "cybersecurity_learning_plan.md",
+      "title": "Cybersecurity Learning Plan"
+    },
+    {
+      "path": "dsa-roadmap.md",
+      "title": "Data Structures & Algorithms Learning Roadmap for Beginners"
+    },
+    {
+      "path": "frontend_system_design.md",
+      "title": "Frontend System Design Guide"
+    },
+    {
       "path": "go-backend-roadmap.md",
       "title": "Go Backend Development Learning Roadmap for Complete Beginners"
     },
