@@ -1,6 +1,10 @@
 {
   "files": [
     {
+      "path": "aws_learning_plan.md",
+      "title": "AWS Learning Plan"
+    },
+    {
       "path": "cybersecurity_learning_plan.md",
       "title": "Cybersecurity Learning Plan"
     },
