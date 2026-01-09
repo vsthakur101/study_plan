@@ -483,21 +483,22 @@ const UserProfile = ({ userId }) => {
 ### Virtual Scrolling Pattern
 **Purpose**: Efficiently render large lists
 
+{% raw %}
 ```javascript
 const VirtualList = ({ items, itemHeight, containerHeight }) => {
   const [scrollTop, setScrollTop] = useState(0);
-  
+
   const visibleStart = Math.floor(scrollTop / itemHeight);
   const visibleEnd = Math.min(
     visibleStart + Math.ceil(containerHeight / itemHeight),
     items.length
   );
-  
+
   const visibleItems = items.slice(visibleStart, visibleEnd);
   const offsetY = visibleStart * itemHeight;
-  
+
   return (
-    <div 
+    <div
       style={{ height: containerHeight, overflow: 'auto' }}
       onScroll={(e) => setScrollTop(e.target.scrollTop)}
     >
@@ -514,6 +515,7 @@ const VirtualList = ({ items, itemHeight, containerHeight }) => {
   );
 };
 ```
+{% endraw %}
 
 ### Lazy Loading Pattern
 **Purpose**: Load components/resources only when needed
