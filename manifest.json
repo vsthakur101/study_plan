@@ -1,6 +1,10 @@
 {
   "files": [
     {
+      "path": "go-backend-roadmap.md",
+      "title": "Go Backend Development Learning Roadmap for Complete Beginners"
+    },
+    {
       "path": "python-backend-roadmap.md",
       "title": "Python Backend Development Learning Roadmap"
     }
