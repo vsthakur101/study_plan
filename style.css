@@ -245,6 +245,12 @@ body {
     color: var(--text-secondary);
 }
 
+/* Tracker Link */
+.tracker-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
 /* Mobile Menu Toggle */
 .mobile-menu-toggle {
     display: none;
