@@ -9,6 +9,10 @@
       "title": "Data Structures & Algorithms Learning Roadmap for Beginners"
     },
     {
+      "path": "frontend_design_patterns.md",
+      "title": "Frontend Design Patterns Guide"
+    },
+    {
       "path": "frontend_system_design.md",
       "title": "Frontend System Design Guide"
     },
